@@ -65,18 +65,15 @@ The `git add` command locally stages and tracks changes made to the specified fi
 
 Stages and tracks the changes made to the specified file.
 
-
 * `git add <filename.extension1> <filename.extension2> <filename.extension1>`
 
 Stages and tracks the changes made to all of the specified files.
-
 
 * `git add <directory>`
 
 Stages and tracks all changes made in a specific directory.
 
-
-* `git add .`
+* `git add .` or `git add *`
 
 Stages and tracks all changes made.
 
@@ -87,22 +84,21 @@ Stages and tracks all changes made.
 The `git commit` command creates a "snapshot" of a staged change in your project history. When you `commit` a change, include a short message describing the change. You must `add` changes before you `commit` them.
 
 
-`git commit <file.extension> -m "<yourmessage>"`
+* `git commit <file.extension> -m "<yourmessage>"`
 
 Creates a commit for a specified file.
 
 
-`git commit <file.extension1> <file.extension2> <file.extension1> -m "<yourmessage>"`
+* `git commit <file.extension1> <file.extension2> <file.extension1> -m "<yourmessage>"`
 
 Stages and tracks the changes made to all of the specified files.
 
-
-`git commit <directory> -m "<yourmessage>"`
+* `git commit <directory> -m "<yourmessage>"`
 
 Creates a checkpoint of a staged changes made in a specific directory.
 
 
-`git commit -m "<yourmessage>"`
+* `git commit -m "<yourmessage>"`
 
 Stages and tracks all changes made.
 
@@ -110,7 +106,7 @@ For example:
 
 `git commit -m "this is a commit message"`
 
->If you forget to type -m as part of your commit then vi opens. To exit vi, type :q.
+>If you forget to type -m as part of your commit then vi opens. To exit vi, type :q and press enter.
 
 ### Git push
 The `git push` command pushes your local changes out to the repo.
@@ -121,7 +117,7 @@ Use the `git checkout -b <branchname>` command to create a new branch and switch
 Follow up by using the `git push --set-upstream origin <branchname>` command to set your new branch to point to origin.
 
 
-Use the `git checkout <branchname>` to switch to an existing branch. Checking out a branch will change your current working directory to match the contents of that branch.
+Use the `git checkout <branchname>` command to switch to an existing branch. Checking out a branch will change your current working directory to match the contents of that branch.
 
 ## Fixing mistakes
 ### Git Checkout
@@ -155,17 +151,16 @@ Resets a `commit` while preserving the status of your working directory.
 
 `git reset HEAD <file>`
 
-Resets a change `added` while preserving the status of your working directory.
+Resets an `added` change while preserving the status of your working directory.
 
 ### Resolving Merge Conflicts Locally
 
 <<<<<<< HEAD
-
 Differences in the head branch (active branch).
 ========
-
 Differences in the destination branch (branch you are merging into).
->>>>>>>>>>
+
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
 
 
 
