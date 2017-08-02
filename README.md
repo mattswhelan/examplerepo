@@ -179,4 +179,9 @@ git reset --hard <commit_sha>
 git merge --abort
 
 git cherry-pick <commit_sha>
+
+Remotes
+git remote add origin
+git push -u origin master
+
 -->
