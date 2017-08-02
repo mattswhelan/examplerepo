@@ -5,8 +5,8 @@ Content using <these brackets> is variable.
 
 ## Getting Started with Git
 ### Configure Identify
-`git config --global user.name &lt"John Doe"&lt`
-`git config --global user.email &ltjohndoe@example.com&lt`
+`git config --global user.name <"John Doe">`
+`git config --global user.email <johndoe@example.com>`
 
 The name and email address you configure here is used with any commits you make.
 
@@ -88,6 +88,7 @@ The `git push` command
 
 ## Branches
 Use the `git checkout -b <branchname>` to create a new branch and switch to it. Checking out a branch will change your current working directory to match the contents of that branch.
+
 Use the `git checkout <branchname>` to switch to an existing branch. Checking out a branch will change your current working directory to match the contents of that branch.
 
 ## Fixing mistakes
