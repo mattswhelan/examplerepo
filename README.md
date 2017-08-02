@@ -61,17 +61,21 @@ The `git diff` command shows a summary of any local changes.
 ### Git add
 The `git add` command locally stages and tracks changes made to the specified file(s). These changes could be edits to a file, a file getting deleted, or a file being added to a project. Use `git add` to prepare content for a `commit`. Anything that changed in your working directory can added.
 
+
 `git add <filename.extension>`
 
 Stages and tracks the changes made to the specified file.
+
 
 `git add <filename.extension1> <filename.extension2> <filename.extension1>`
 
 Stages and tracks the changes made to all of the specified files.
 
+
 `git add <directory>`
 
 Stages and tracks all changes made in a specific directory.
+
 
 `git add .`
 
@@ -81,25 +85,31 @@ Stages and tracks all changes made.
 
 
 ### Git commit
-The `git commit` command creates a "checkpoint" of a staged change in your project history. You must `add` changes before you `commit` them.
+The `git commit` command creates a "snapshot" of a staged change in your project history. When you `commit` a change, include a short message describing the change. You must `add` changes before you `commit` them.
+
 
 `git commit <file.extension> -m "<yourmessage>"`
 
-C made to the specified file.
+Creates a commit for a specified file.
+
 
 `git commit <file.extension1> <file.extension2> <file.extension1> -m "<yourmessage>"`
 
 Stages and tracks the changes made to all of the specified files.
 
+
 `git commit <directory> -m "<yourmessage>"`
 
-Stages and tracks all changes made in a specific directory.
+Creates a checkpoint of a staged changes made in a specific directory.
+
 
 `git commit -m "<yourmessage>"`
 
 Stages and tracks all changes made.
 
-For example, git commit -m "this is a commit message"
+For example:
+
+`git commit -m "this is a commit message"`
 
 >If you forget to type -m as part of your commit then vi opens. To exit vi, type :q.
 
@@ -118,25 +128,31 @@ Use the `git checkout <branchname>` to switch to an existing branch. Checking ou
 ### Git Checkout
 You can also use the `git checkout` command to change your working directory to match an older version of your project.
 
+
 `git checkout <currentbranchname>`
 
 Changes the contents of your current working directory to match the branch you are currently working on.
+
 
 `git checkout <commit_sha>`
 
 Changes the contents of your current working directory to match the specified commit.
 
+
 `git checkout <commit_sha> <file>`
 
 Changes the contents of a specified file to match the specified commit.
+
 
 `git revert <commit_sha>`
 
 Git revert functions as an undo command. Git revert undos the changes made in a specific commit without deleting the project history.
 
+
 `git reset --soft HEAD^`
 
 Resets a `commit` while preserving the status of your working directory.
+
 
 `git reset HEAD <file>`
 
