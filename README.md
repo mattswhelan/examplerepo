@@ -119,14 +119,14 @@ Follow up by using the `git push --set-upstream origin <branchname>` command to 
 
 Use the `git checkout <branchname>` command to switch to an existing branch. Checking out a branch will change your current working directory to match the contents of that branch.
 
-## Fixing mistakes
+## Fixing Mistakes
 ### Git Checkout
 You can also use the `git checkout` command to change your working directory to match an older version of your project.
 
 
-`git checkout <currentbranchname>`
+`git checkout <file>`
 
-Changes the contents of your current working directory to match the branch you are currently working on.
+Changes the contents a file in your working directory to match the last commit on that file for the branch you are currently working on.
 
 
 `git checkout <commit_sha>`
@@ -143,7 +143,7 @@ Changes the contents of a specified file to match the specified commit.
 
 Git revert functions as an undo command. Git revert undos the changes made in a specific commit without deleting the project history.
 
-
+### Fix Mistakes with add or commit
 `git reset --soft HEAD^`
 
 Resets a `commit` while preserving the status of your working directory.
@@ -158,6 +158,8 @@ Resets an `added` change while preserving the status of your working directory.
 <<<<<<< HEAD
 Differences in the head branch (active branch).
 ========
+
+
 Differences in the destination branch (branch you are merging into).
 
 &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
