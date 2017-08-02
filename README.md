@@ -60,8 +60,8 @@ The `git diff` command shows a summary of any local changes.
 
 ### Git add
 The `git add` command locally stages and tracks changes made to the specified file(s). These changes could be edits to a file, a file getting deleted, or a file being added to a project. Use `git add` to prepare content for a `commit`. Anything that changed in your working directory can added.
+<br>
 
-</br>
 `git add <filename.extension>`
 
 Stages and tracks the changes made to the specified file.
@@ -165,7 +165,7 @@ Resets a change `added` while preserving the status of your working directory.
 Differences in the head branch (active branch).
 ========
 
-Differences in the destination branch.
+Differences in the destination branch (branch you are merging into).
 >>>>>>>>>>
 
 
