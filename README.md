@@ -65,13 +65,16 @@ The `git add` command locally stages and tracks changes made to the specified fi
 
 Stages and tracks the changes made to the specified file.
 
+
 * `git add <filename.extension1> <filename.extension2> <filename.extension1>`
 
 Stages and tracks the changes made to all of the specified files.
 
+
 * `git add <directory>`
 
 Stages and tracks all changes made in a specific directory.
+
 
 * `git add .`
 
