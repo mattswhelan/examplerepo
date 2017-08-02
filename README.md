@@ -58,6 +58,7 @@ The `git log` command uses commits to display the history of your project.
 The `git diff` command shows a summary of any local changes.
 >Press Shift+Q to exit the diff log.
 
+## Saving Changes
 ### Git add
 The `git add` command locally stages and tracks changes made to the specified file(s). These changes could be edits to a file, a file getting deleted, or a file being added to a project. Use `git add` to prepare content for a `commit`. Anything that changed in your working directory can added.
 
