@@ -168,6 +168,9 @@ Differences in the destination branch (branch you are merging into).
 
 <!--Get to this later
 
+git commit -am "<yourmessage>"
+adds and commits all current local changes.
+
 git reset --hard HEAD~1
 
 git reset --hard <commit_sha>
