@@ -1,1 +1,2 @@
-The weather is good today.
+The weather today is:
+good
