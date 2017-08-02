@@ -1,1 +1,1 @@
-The weather is bad today.
+The weather is good today.
