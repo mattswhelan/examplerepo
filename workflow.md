@@ -10,8 +10,8 @@
 `git clone <repoURL>`
 
 1. Edit files in a repo locally.
-2. (Optional) `git status` to view the state of any local changes.
-3. `git pull` to update your repo.
+2. `git status` to view the state of any changes.
+3. `git pull` to update your repo if needed.
 3. `git add <changedcontent>` to select changes to stage.
 4. (Optional) `git diff` to view a summary of any local changes.
 5. `git commit -m` to commit your changes.
