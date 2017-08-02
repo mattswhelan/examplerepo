@@ -60,24 +60,20 @@ The `git diff` command shows a summary of any local changes.
 
 ### Git add
 The `git add` command locally stages and tracks changes made to the specified file(s). These changes could be edits to a file, a file getting deleted, or a file being added to a project. Use `git add` to prepare content for a `commit`. Anything that changed in your working directory can added.
-<br>
 
-`git add <filename.extension>`
+* `git add <filename.extension>`
 
 Stages and tracks the changes made to the specified file.
 
-</br>
-`git add <filename.extension1> <filename.extension2> <filename.extension1>`
+* `git add <filename.extension1> <filename.extension2> <filename.extension1>`
 
 Stages and tracks the changes made to all of the specified files.
 
-
-`git add <directory>`
+* `git add <directory>`
 
 Stages and tracks all changes made in a specific directory.
 
-
-`git add .`
+* `git add .`
 
 Stages and tracks all changes made.
 
@@ -179,4 +175,4 @@ git reset --hard <commit_sha>
 git merge --abort
 
 git cherry-pick <commit_sha>
---->
+-->
