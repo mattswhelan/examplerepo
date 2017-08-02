@@ -51,7 +51,6 @@ The `git pull` command updates your local directory with any changes to the repo
 ## What Has Changed/What is Happening/Help
 ### Git status
 The `git status` command displays the state of any changes in your working directory. These states include:
-* Changes made externally by other repo users that have not been pulled
 * Changes made locally that are not staged
 * Changes made locally that are staged
 * Changes made locally that are committed
