@@ -1,2 +1,2 @@
 The weather today is:
-bad
+bad.
