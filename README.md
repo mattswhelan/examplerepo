@@ -1,11 +1,13 @@
 # Hello this is the example github repo
 
 This readme is written in markdown.
-Content using <these brackets> is variable.
+
+Content using &ltthese brackets&lt is variable.
 
 ## Getting Started with Git
 ### Configure Identify
 `git config --global user.name <"John Doe">`
+
 `git config --global user.email <johndoe@example.com>`
 
 The name and email address you configure here is used with any commits you make.
