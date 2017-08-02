@@ -2,7 +2,7 @@
 
 This readme is written in markdown.
 
-Content using &ltthese brackets&lt is variable.
+Content using &lt;these brackets> is variable.
 
 ## Getting Started with Git
 ### Configure Identify
