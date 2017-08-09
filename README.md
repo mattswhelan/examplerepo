@@ -42,8 +42,7 @@ The `git pull` command updates your local directory with any changes to the repo
 1. Edit files in a repo locally.
 2. (Optional) `git status` to view the state of any local changes.
 3. `git pull` to update your repo.
-3. `git add <changedfile>` to select changes to stage.
-4. (Optional) `git diff` to view a summary of any local changes.
+4. `git add <changedfile>` to select changes to stage.
 5. `git commit -m` to commit your changes.
 6. `git push` to push your local changes out to the current branch of your repo.
 
