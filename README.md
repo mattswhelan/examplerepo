@@ -1,7 +1,12 @@
-# Hello this is an example github repo
 
-# New Heading
-Can you see this change?
+# Hello this is Pat's example of github repo
+
+There was a change here, now it is gone.
+
+# Hello this is an example github repo
+ 
+This is a new sentence.
+
 
 * Bullet point one
 * bullet point two
@@ -42,8 +47,7 @@ The `git pull` command updates your local directory with any changes to the repo
 1. Edit files in a repo locally.
 2. (Optional) `git status` to view the state of any local changes.
 3. `git pull` to update your repo.
-3. `git add <changedfile>` to select changes to stage.
-4. (Optional) `git diff` to view a summary of any local changes.
+4. `git add <changedfile>` to select changes to stage.
 5. `git commit -m` to commit your changes.
 6. `git push` to push your local changes out to the current branch of your repo.
 
@@ -51,7 +55,6 @@ The `git pull` command updates your local directory with any changes to the repo
 ## What Has Changed/What is Happening/Help
 ### Git status
 The `git status` command displays the state of any changes in your working directory. These states include:
-* Changes made externally by other repo users that have not been pulled
 * Changes made locally that are not staged
 * Changes made locally that are staged
 * Changes made locally that are committed
