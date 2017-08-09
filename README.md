@@ -1,7 +1,6 @@
 # Hello this is an example github repo
 
-# New Heading
-Can you see this change?
+There was a change here, now it is gone.
 
 * Bullet point one
 * bullet point two
