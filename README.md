@@ -1,4 +1,4 @@
-# Hello this is an example github repo
+# Hello this is Pat's example of github repo
 
 There was a change here, now it is gone.
 
