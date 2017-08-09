@@ -1,6 +1,12 @@
+
 # Hello this is Pat's example of github repo
 
 There was a change here, now it is gone.
+
+# Hello this is an example github repo
+ 
+This is a new sentence.
+
 
 * Bullet point one
 * bullet point two
